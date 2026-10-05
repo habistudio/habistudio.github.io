@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Habi Studio | Developer Team</title>
+  <meta name="description" content="Habi Studio is a team of five developers building apps and websites for Filipino businesses and schools.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Habi Studio</a>
+      <nav aria-label="Main">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="main-menu">Menu</button>
+        <ul class="menu" id="main-menu">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <h1>Five developers weaving software for everyday Filipino life.</h1>
+          <p class="lead">Habi means &ldquo;weave.&rdquo; Each of us brings a different thread, and together we build apps and websites for small businesses, schools, clinics, and commuters.</p>
+          <div class="btn-row">
+            <a class="btn" href="products.html">See our products</a>
+            <a class="btn ghost" href="team.html">Meet the team</a>
+          </div>
+        </div>
+        <div class="loom" role="img" aria-label="Five colored threads woven together, one for each team member">
+          <div class="thread"></div><div class="thread"></div><div class="thread"></div><div class="thread"></div><div class="thread"></div>
+          <div class="loom-label"><strong>5 developers, 5 products</strong>Each color is one of us. Look for it on our profiles and products.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block media-block">
+      <div class="wrap media-grid">
+        <div>
+          <h2 class="section-title">Meet Habi in 14 seconds</h2>
+          <p class="section-intro">Watch our short introduction video to see who we are and what we build.</p>
+          <video controls width="640" height="360" poster="images/video-poster.jpg" preload="metadata">
+            <source src="media/habi-intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="jingle">
+          <h3>Our studio jingle</h3>
+          <p>Every product launch starts with this tune. Press play to listen.</p>
+          <audio controls preload="metadata">
+            <source src="media/habi-jingle.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <section class="block alt">
+      <div class="wrap">
+        <h2 class="section-title">How we work with you</h2>
+        <p class="section-intro">Every project follows the same four steps, whether it is a simple website or a full app.</p>
+        <ol class="steps">
+          <li><h3>Listen</h3><p>We visit or call you to learn how your business works and what slows you down.</p></li>
+          <li><h3>Design</h3><p>We sketch the screens and show you before writing any code, so you can change your mind cheaply.</p></li>
+          <li><h3>Build and test</h3><p>We build in small parts and test each one, so problems are caught early.</p></li>
+          <li><h3>Launch and support</h3><p>We put it online, train your staff, and stay available for fixes and updates.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="wrap">
+        <h2 class="section-title">The people behind Habi</h2>
+        <p class="section-intro">A small team means you talk directly to the developer building your product.</p>
+        <div class="team-strip">
+          <a class="mini" href="team.html#mi" style="--c: var(--t1)">
+            <img class="avatar" src="images/team/marilla.jpg" alt="Photo of Marilla Ignacio" width="56" height="56">
+            <strong>Marilla Ignacio</strong>
+            <span>Project Lead and Data Developer</span>
+          </a>
+          <a class="mini" href="team.html#as" style="--c: var(--t2)">
+            <img class="avatar" src="images/team/alexander.jpg" alt="Photo of Alexander Susana" width="56" height="56">
+            <strong>Alexander Susana</strong>
+            <span>Back-end Developer</span>
+          </a>
+          <a class="mini" href="team.html#rr" style="--c: var(--t3)">
+            <img class="avatar" src="images/team/rimar.jpg" alt="Photo of Rimar Joe Reynado" width="56" height="56">
+            <strong>Rimar Joe Reynado</strong>
+            <span>Mobile App Developer</span>
+          </a>
+          <a class="mini" href="team.html#mc" style="--c: var(--t4)">
+            <img class="avatar" src="images/team/marjorie.jpg" alt="Photo of Marjorie Canaleja" width="56" height="56">
+            <strong>Marjorie Canaleja</strong>
+            <span>UI/UX Designer and Front-end Developer</span>
+          </a>
+          <a class="mini" href="team.html#lc" style="--c: var(--t5)">
+            <img class="avatar" src="images/team/lovechi.jpg" alt="Photo of Lovechi Cabros" width="56" height="56">
+            <strong>Lovechi Cabros</strong>
+            <span>Quality Assurance and Web Developer</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="block alt">
+      <div class="wrap">
+        <h2 class="section-title">Have an idea or a problem to solve?</h2>
+        <p class="section-intro">Tell us about it. The first consultation is free, and we reply within two working days.</p>
+        <a class="btn" href="contact.html">Talk to us</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="weave-line" aria-hidden="true"></div>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> Habi Studio. Five developers, one weave.</p>
+      <p>Made for ITC 122 &ndash; Introduction to Web Design, Arellano University ETEEAP</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

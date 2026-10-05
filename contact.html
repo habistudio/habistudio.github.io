@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Habi Studio</title>
+  <meta name="description" content="Contact Habi Studio for a free consultation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Habi Studio</a>
+      <nav aria-label="Main">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="main-menu">Menu</button>
+        <ul class="menu" id="main-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <div class="wrap">
+        <h1>Contact us</h1>
+        <p>Tell us what you need. The first consultation is free.</p>
+      </div>
+    </div>
+    <section class="block">
+      <div class="wrap contact-grid">
+        <form id="contact-form" action="#" method="post" novalidate>
+          <div><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name"></div>
+          <div><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email"></div>
+          <div><label for="interest">I am interested in</label>
+            <select id="interest" name="interest"><option>Just asking</option><option>Tala</option><option>Pila</option><option>Biyahe</option><option>Tindahan Kit</option><option>Aral</option><option>A custom project</option></select></div>
+          <div><label for="message">Message</label><textarea id="message" name="message"></textarea></div>
+          <fieldset>
+            <legend>How should we contact you?</legend>
+            <label class="choice"><input type="radio" name="contact-method" value="email" checked> Email</label>
+            <label class="choice"><input type="radio" name="contact-method" value="phone"> Phone call</label>
+            <label class="choice"><input type="radio" name="contact-method" value="messenger"> Messenger</label>
+          </fieldset>
+          <label class="choice"><input type="checkbox" name="updates" value="yes"> Send me news about new Habi products</label>
+          <button class="btn" type="submit">Send message</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+        <div class="info">
+          <h2 class="section-title">Visit or call</h2>
+          <dl>
+            <dt>Address</dt><dd>Legarda, Sampaloc, Manila</dd>
+            <dt>Email</dt><dd><a href="mailto:hello@habistudio.ph">hello@habistudio.ph</a></dd>
+            <dt>Phone</dt><dd>(02) 8123 4567</dd>
+            <dt>Office hours</dt><dd>Monday to Friday, 9:00 AM to 6:00 PM</dd>
+          </dl>
+          <iframe class="map" title="Map showing our location in Legarda, Sampaloc, Manila" src="https://www.google.com/maps?q=Arellano+University+Legarda+Sampaloc+Manila&amp;output=embed" width="400" height="300" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="weave-line" aria-hidden="true"></div>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> Habi Studio. Five developers, one weave.</p>
+      <p>Made for ITC 122 &ndash; Introduction to Web Design, Arellano University ETEEAP</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
